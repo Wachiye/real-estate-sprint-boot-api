@@ -2,7 +2,6 @@ package com.egerton.realeaste.controllers;
 
 import com.egerton.realeaste.dao.HouseRepo;
 import com.egerton.realeaste.models.House;
-import com.egerton.realeaste.services.ImageService;
 
 import com.egerton.realeaste.utils.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +18,6 @@ import java.util.Optional;
 public class HouseController {
     @Autowired
     private HouseRepo houseRepo;
-
-    @Autowired
-    private ImageService imageService;
 
     @GetMapping
     public List<House> findAllHouses(){

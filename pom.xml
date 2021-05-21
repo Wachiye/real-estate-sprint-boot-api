@@ -60,10 +60,30 @@
         </dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-core</artifactId>
+			<artifactId>spring-security-web</artifactId>
+<!--			<version>5.4.6</version>-->
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
 			<version>5.4.5</version>
 		</dependency>
-	</dependencies>
+		<!--        <dependency>-->
+<!--            <groupId>org.springframework.security</groupId>-->
+<!--            <artifactId>spring-security-config</artifactId>-->
+<!--            <version>5.4.5</version>-->
+<!--        </dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-tomcat</artifactId>-->
+<!--			&lt;!&ndash;	<scope>provided</scope>&ndash;&gt;-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>javax.servlet</groupId>-->
+<!--			<artifactId>javax.servlet-api</artifactId>-->
+<!--&lt;!&ndash;			<version>3.1.0</version>&ndash;&gt;-->
+<!--		</dependency>-->
+    </dependencies>
 
 	<build>
 		<plugins>
